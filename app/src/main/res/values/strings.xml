@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kelybro</string>
+    <string name="server_url_old">http://muraniinfotech.com/apk/kelybro/</string>
+    <string name="server_url">http://www.kelybro.com/api/</string>
+    <string name="Image_url">http://www.kelybro.com/</string>
+    <string name="notification">CREATE TABLE IF NOT EXISTS notification (client_code TEXT,title TEXT, details TEXT, type TEXT, notification_date TEXT)</string>
+    <string name="notification_delete">DELETE FROM notification WHERE title = \'Chat Message\'</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8378612203287298/6440606570</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8378612203287298/7597899282</string>
+    <string name="channel_name">Oreo</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+
+</resources>

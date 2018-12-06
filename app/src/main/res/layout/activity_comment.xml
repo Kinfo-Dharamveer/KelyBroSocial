@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/shape_rounded_corners">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rel_bottom"
+        android:id="@+id/recyclerView_comment"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentBottom="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_comment_user_photo"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_avatar"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_comment_user_photo"
+            android:layout_toLeftOf="@+id/hm_iv_send_comment"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:hint="Add a comment.."
+            android:textSize="@dimen/_12sdp"
+            android:layout_centerVertical="true"
+            android:id="@+id/hm_et_add_comment"
+            android:layout_marginRight="@dimen/_5sdp"/>
+
+        <ImageView
+            android:id="@+id/hm_iv_send_comment"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_send_black_24dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--com.kelybro.android.CustomTextViewView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Our Unity"-->
+    <!--android:id="@+id/tv_our_unity"-->
+    <!--android:layout_margin="@dimen/_10sdp"-->
+    <!--android:textColor="@color/black"/>-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/_20sdp"-->
+    <!--android:layout_height="@dimen/_20sdp"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="@dimen/_10sdp"-->
+    <!--android:layout_alignParentRight="true"-->
+
+    <!--android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/_1sdp"-->
+    <!--android:background="@color/colorGray"/>-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--com.kelybro.android.CustomTextViewView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Directory"-->
+    <!--android:layout_margin="@dimen/_10sdp"-->
+    <!--android:id="@+id/tv_st_directory"-->
+    <!--android:textColor="@color/black"/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/_20sdp"-->
+    <!--android:layout_height="@dimen/_20sdp"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="@dimen/_10sdp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>-->
+    <!--</RelativeLayout>-->
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/_1sdp"-->
+    <!--android:background="@color/colorGray"/>-->
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--com.kelybro.android.CustomTextViewView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="News"-->
+    <!--android:id="@+id/tv_st_news"-->
+    <!--android:layout_margin="@dimen/_10sdp"-->
+    <!--android:textColor="@color/black"/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/_20sdp"-->
+    <!--android:layout_height="@dimen/_20sdp"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="@dimen/_10sdp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/_1sdp"-->
+    <!--android:background="@color/colorGray"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/tv_st_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Share"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorGray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/tv_st_rate_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="RateUs"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorGray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/tv_st_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="FeedBack"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorGray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/tv_st_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="About Us"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignEnd="@+id/tv_st_about_us"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorGray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/tv_GPJPForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="GPJP Form"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/ivGPJPForm"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignEnd="@+id/tv_GPJPForm"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorGray" />
+
+    <LinearLayout
+        android:id="@+id/llGPJPForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:id="@+id/tv_Add_GPJPForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Add GPJP Form"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:id="@+id/tv_Download_GPJPForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Download GPJP Form"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/tv_st_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Logout"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorGray" />
+</LinearLayout>

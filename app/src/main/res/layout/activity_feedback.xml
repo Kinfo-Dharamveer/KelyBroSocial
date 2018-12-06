@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Feedback"/>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_marginTop="10dp">-->
+
+            <!--com.kelybro.android.CustomTextViewView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="17sp"-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:text="Category :"/>-->
+
+            <!--<Spinner-->
+                <!--android:id="@+id/feedback_spinner"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+        <!--</LinearLayout>-->
+
+        <EditText
+            android:id="@+id/feedback_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:singleLine="false"
+            android:hint="Write your Feedback"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:maxLength="300"/>
+
+        <Button
+            android:id="@+id/feedback_submit"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_layout_sky"
+            android:text="Submit"/>
+
+    </LinearLayout>
+</RelativeLayout>

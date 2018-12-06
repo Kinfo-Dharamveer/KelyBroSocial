@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rel_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rel_post_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lyn_main"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorWhite">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/yp_iv_user_photo"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:src="@drawable/ic_avatar" />
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:id="@+id/yp_tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="User name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_bs_categories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/edCountry"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="Country"
+                android:padding="@dimen/_2sdp"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/edState"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="@string/state"
+                android:singleLine="true"
+                android:padding="@dimen/_2sdp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/edCity"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:singleLine="true"
+                android:hint="@string/city"
+                android:padding="@dimen/_2sdp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/edPhone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Phone No"
+            android:inputType="phone"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+
+        <LinearLayout
+            android:id="@+id/lyn_second"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/rel_post_tag">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/edt_user_post_txt"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_13sdp"
+                android:hint="Write something about your business." />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:id="@+id/rv_post_image"
+            android:layout_below="@+id/lyn_second"
+            android:orientation="horizontal"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_margin="10dp"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/rounded_layout_sky"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/ic_add_white_24dp"
+                android:id="@+id/iv_add_image"/>
+
+            <com.kelybro.android.customviews.CustomTextViewBold
+                android:id="@+id/tv_send"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/rounded_layout_sky"
+                android:text="Submit"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_15sdp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

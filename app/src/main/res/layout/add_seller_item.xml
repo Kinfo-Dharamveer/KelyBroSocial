@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_dialog"
+    android:padding="@dimen/_10sdp">
+
+    <LinearLayout
+        android:id="@+id/post_job_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edt_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Product Name"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="5dp"
+            android:padding="@dimen/_8sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_bs_categories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="category"
+            android:inputType="textNoSuggestions|text"
+            android:paddingBottom="9dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="9dp"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+
+        <EditText
+            android:id="@+id/edt_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Product Price"
+            android:inputType="number"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Product Description"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Contact Person"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/edt_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Contact No"
+            android:inputType="number"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Contact Location"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rv_post_image"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_marginTop="@dimen/_5sdp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/rounded_layout_sky"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/ic_add_white_24dp"
+                android:id="@+id/iv_add_image"/>
+            <Button
+                android:id="@+id/btn_sl_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/rounded_layout_sky"
+                android:text="Submit"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

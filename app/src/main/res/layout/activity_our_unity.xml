@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.kelybro.android.customviews.CustomTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Our Unity"/>
+        <EditText
+            android:id="@+id/et_FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="First Name"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_Middle_Name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Middle Name"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_LastName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Last Name"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/tv_date_of_birth"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_5sdp"
+            android:text="Click hear to date of birth"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/_14sdp" />
+
+        <EditText
+            android:id="@+id/et_Mobile_No"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Mobile No"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_WhatsApp_no"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="WhatsApp No"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_Email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Email"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_Address"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Address"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_city_village"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="City / Village"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_Taluka"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Taluka"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_zip_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Zip code"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:id="@+id/tv_district"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="District :"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_14sdp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:id="@+id/spinner_district"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_state"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="State"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_cast"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Cast"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:id="@+id/tv_sub_cast"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="Sub Cast :"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_14sdp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/spinner_subCast"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/tv_gender"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_5sdp"
+            android:text="Gender"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/_14sdp" />
+
+        <EditText
+            android:id="@+id/et_qualification"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:cursorVisible="true"
+            android:hint="Qualification"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:id="@+id/tv_Political_influence"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="Political Influence :"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_14sdp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/spinner_political_influence"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:id="@+id/tv_Marital_status"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="Marital Status :"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_14sdp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/sp_marital_status"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_layout">
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:id="@+id/tv_select_image"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="Please Select Image"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_14sdp" />
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_layout_sky"
+                android:gravity="center"
+                android:text="Browser"
+                android:id="@+id/tv_browse_image"
+                android:textColor="@color/colorWhite" />
+        </RelativeLayout>
+
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/cb_accept_term_condition"
+            android:text="I accept Terms and Conditions"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_layout_sky"
+            android:gravity="center"
+            android:text="SUBMIT"
+            android:id="@+id/tv_submit"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</ScrollView>

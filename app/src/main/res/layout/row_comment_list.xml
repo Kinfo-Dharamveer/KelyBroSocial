@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lyn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_cm_user_profile"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/ic_avatar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/iv_cm_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/iv_cm_user_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wow this is aswsome click"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

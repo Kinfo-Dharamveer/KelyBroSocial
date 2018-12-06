@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/lyn_main"
+            android:gravity="center_vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/you_pf_image"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/ic_avatar" />
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User_name"
+                android:id="@+id/you_pf_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+            <com.kelybro.android.customviews.CustomTextView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:gravity="center"
+                android:id="@+id/you_follow_request"
+                android:background="@drawable/rounded_layout_sky"
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:text="following"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

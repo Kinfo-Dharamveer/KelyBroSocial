@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/send_resume_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:context="com.tjcloud.kumbhkar.Activity.OurPartyActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--com.kelybro.android.CustomTextViewView-->
+                <!--android:id="@+id/txt_filename"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_margin="@dimen/_5sdp"-->
+                <!--android:text="Upload Resume Hear"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textStyle="bold" />-->
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Enter PDF Name"
+                    android:inputType="textPersonName" />
+
+
+                <Button
+                    android:id="@+id/btn_browse_pdf_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/rounded_layout_sky"
+                    android:text="Browser"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:src="@drawable/ic_picture_as_pdf_black_24dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit_pdf_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_layout_sky"
+            android:text="Submit"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</LinearLayout>

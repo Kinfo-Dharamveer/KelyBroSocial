@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "794303917671",
+    "firebase_url": "https://kelybro-a937d.firebaseio.com",
+    "project_id": "kelybro-a937d",
+    "storage_bucket": "kelybro-a937d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794303917671:android:9f9bcb700fb9de95",
+        "android_client_info": {
+          "package_name": "com.kelybro.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794303917671-qii6guk4r0o3l1ccet72lppc5aqtrv10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDECBOGbikS8goHWjL6avTshw4Lmi_AH-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

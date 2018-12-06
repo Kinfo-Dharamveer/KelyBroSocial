@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lyn_item"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner_layout"
+        android:elevation="@dimen/_3sdp"
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lyn_main"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:id="@+id/profile_image"-->
+                <!--android:layout_width="@dimen/_30sdp"-->
+                <!--android:layout_height="@dimen/_30sdp"-->
+                <!--android:layout_margin="@dimen/_10sdp"-->
+                <!--android:src="@drawable/ic_avatar" />-->
+
+            <!--com.kelybro.android.CustomTextViewView-->
+                <!--android:id="@+id/textViewUsername"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="User_name"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/_12sdp" />-->
+        <!--</LinearLayout>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_avatar"
+            android:id="@+id/iv_seller_image"
+            android:layout_margin="@dimen/_3sdp"/>
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="300000"
+            android:id="@+id/tv_seller_price"
+            android:textColor="@color/black" />
+
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/seller_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="Tavera"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/seller_item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="Tavera"
+            android:textColor="@color/black" />
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/seller_item_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="Tavera"
+            android:textColor="@color/black" />
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="@dimen/_3sdp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="5">-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Price"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp" />-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="4"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:text="300000"-->
+        <!--android:textColor="@color/black" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="@dimen/_3sdp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="5">-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Seller"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp" />-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:layout_weight="4"-->
+        <!--android:text="Prince Poriya"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="@dimen/_3sdp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="5">-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Contact"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp" />-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:layout_weight="4"-->
+        <!--android:text="+919898787877"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="@dimen/_3sdp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="5">-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Location"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp" />-->
+
+        <!--com.kelybro.android.CustomTextViewView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_5sdp"-->
+        <!--android:layout_weight="4"-->
+        <!--android:text="Movdi chowkdi Rajkot"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp" />-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+</LinearLayout>

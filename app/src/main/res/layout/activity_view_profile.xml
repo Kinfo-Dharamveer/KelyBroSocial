@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/vpf_rl_view_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/act_bar"
+        android:background="@color/colorWhite">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel_frame"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="First Name"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:id="@+id/vpf_first_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Sachin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_frame"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Last Name"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:id="@+id/vpf_last_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Parekh"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_frame"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Contact Number"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:id="@+id/vpf_contact_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="+918745457464"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Address"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:id="@+id/vpf_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Rajkot"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="City"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:id="@+id/vpf_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Rajkot"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Zip Code"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <com.kelybro.android.customviews.CustomTextView
+                    android:id="@+id/vpf_zip_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="360002"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+            <com.kelybro.android.customviews.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:text="Edit"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/rounded_layout_sky"
+                android:gravity="center"
+                android:id="@+id/tv_edit"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/vpf_rl_view_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/act_bar"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/lyn_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@+id/rel_frame_edit"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/up_et_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="true"
+                    android:hint="First Name"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lyn_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@+id/lyn_firstname"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/up_et_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="true"
+                    android:hint="Last Name"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorAccent" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyn_contact"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@+id/lyn_lastname"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/up_et_contact_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="true"
+                    android:hint="Contact Number"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorAccent" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyn_Address"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@+id/lyn_contact"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/up_et_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="true"
+                    android:hint="Address"
+                    android:inputType="textPostalAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorAccent" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyn_city"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@+id/lyn_Address"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/up_et_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="true"
+                    android:hint="City"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorAccent" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyn_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_below="@+id/lyn_city"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/up_et_zipcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="true"
+                    android:hint="ZipCode"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorAccent" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_12sdp"
+            android:text="Update"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:id="@+id/tv_update"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/rounded_layout_sky"
+            android:layout_below="@+id/lyn_zipcode"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/act_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/ma_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+    </android.support.design.widget.AppBarLayout>
+</RelativeLayout>

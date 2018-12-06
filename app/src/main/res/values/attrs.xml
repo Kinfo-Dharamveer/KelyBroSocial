@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="font">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <attr name="typeface" format="enum">
+        <enum name="font_light" value="0"/>
+        <enum name="font_regular" value="1"/>
+        <enum name="font_semibold" value="2"/>
+        <enum name="font_bold" value="3"/>
+    </attr>
+
+</resources>

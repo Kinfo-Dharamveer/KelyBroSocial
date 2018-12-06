@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:background="@drawable/rounded_corner_dialog"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/post_job_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_8sdp"
+            android:background="@drawable/rounded_corner_layout"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_bs_categories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_job_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Job For Post"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edt_job_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Job Description"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:maxLines="4"
+            android:minLines="4"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edt_job_expirience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Experience"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_job_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Job Salary"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_job_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_layout"
+            android:gravity="left"
+            android:hint="Location"
+            android:inputType="textNoSuggestions|text"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_job_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_layout_sky"
+            android:text="Post"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</RelativeLayout>

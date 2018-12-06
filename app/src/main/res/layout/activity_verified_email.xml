@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <com.kelybro.android.customviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure You have verify email"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/_10sdp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <com.kelybro.android.customviews.CustomTextView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/vfe_tv_yes"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:text="Yes"
+            android:background="@drawable/rounded_layout_sky"
+            android:gravity="center"/>
+        <com.kelybro.android.customviews.CustomTextView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:text="No"
+            android:id="@+id/vfe_tv_no"
+            android:background="@drawable/rounded_layout_sky"
+            android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

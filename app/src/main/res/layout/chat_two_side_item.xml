@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lyn_sender"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner_layout"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_sender_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_avatar" />
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/tv_chat_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="Hi Good Morning"
+            android:textColor="@color/black" />
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/tv_chat_sender_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="-5dp"
+            android:text="1 min ago"
+            android:textSize="@dimen/_8sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyn_receiver"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lyn_sender"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner_layout"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_receiver_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_avatar" />
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/tv_chat_receiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="Hi Good Morning"
+            android:textColor="@color/black" />
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/tv_chat_receiver_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="-5dp"
+            android:text="1 min ago"
+            android:textSize="@dimen/_8sdp" />
+    </LinearLayout>
+
+</RelativeLayout>

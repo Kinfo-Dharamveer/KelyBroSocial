@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kelybro.android.activities.MainActivity">
+
+    <item android:id="@+id/action_search"
+        app:actionLayout="@layout/search_count_menu"
+        android:title="Search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_filter"
+        app:actionLayout="@layout/filter_count_menu"
+        android:title="Filter"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_chat"
+        app:actionLayout="@layout/chat_count_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_chat_white_24dp"
+        app:showAsAction="always"
+        android:title="Chat"/>
+    <item
+        android:id="@+id/action_notification"
+        app:actionLayout="@layout/notification_count_menu"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_notifications_white_24dp"
+        android:title="Notification"/>
+</menu>

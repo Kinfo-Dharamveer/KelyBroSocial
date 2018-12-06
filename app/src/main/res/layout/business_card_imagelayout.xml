@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_190sdp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewBusiness"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_190sdp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="visible" />
+
+</RelativeLayout>

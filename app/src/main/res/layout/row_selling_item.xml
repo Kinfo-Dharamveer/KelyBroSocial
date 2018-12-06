@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lyn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/ic_avatar" />
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+    <com.kelybro.android.customviews.CustomTextView
+    android:layout_width="match_parent"
+    android:id="@+id/description_text"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/lyn_main"
+    android:layout_margin="@dimen/_10sdp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/rh_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_below="@+id/description_text"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/rh_SliderDots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rh_viewPager"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lyn_center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/rh_viewPager"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="@dimen/_20sdp"-->
+            <!--android:id="@+id/iv_like_unlike"-->
+            <!--android:layout_height="@dimen/_20sdp"-->
+            <!--android:layout_marginBottom="@dimen/_5sdp"-->
+            <!--android:layout_marginLeft="@dimen/_10sdp"-->
+            <!--android:layout_marginRight="@dimen/_5sdp"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/ic_favorite_border_black_24dp"-->
+            <!--android:tint="@color/black" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/hm_iv_comment"-->
+            <!--android:layout_width="@dimen/_20sdp"-->
+            <!--android:layout_height="@dimen/_20sdp"-->
+            <!--android:layout_marginBottom="@dimen/_5sdp"-->
+            <!--android:layout_marginLeft="@dimen/_5sdp"-->
+            <!--android:layout_marginRight="@dimen/_5sdp"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/ic_comment_black_24dp" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="@dimen/_20sdp"-->
+            <!--android:layout_height="@dimen/_20sdp"-->
+            <!--android:layout_marginBottom="@dimen/_5sdp"-->
+            <!--android:layout_marginLeft="@dimen/_5sdp"-->
+            <!--android:layout_marginRight="@dimen/_5sdp"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:id="@+id/hm_iv_share"-->
+            <!--android:src="@drawable/ic_share_black_24dp" />-->
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>

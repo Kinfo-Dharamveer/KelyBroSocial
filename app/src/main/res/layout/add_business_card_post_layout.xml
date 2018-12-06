@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corner_dialog">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.kelybro.android.customviews.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="Register Business"
+                android:textSize="@dimen/_17sdp" />
+
+            <EditText
+                android:id="@+id/bc_et_business_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="Business Name"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_8sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_bs_categories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/bc_et_business_Address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="Address"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/bc_spinner_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/bc_spinner_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/bc_spinner_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/bc_et_business_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="Phone No"
+                android:inputType="number"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/bc_et_business_website"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="Website"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/bc_et_business_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="Email"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ebc_et_ZipCode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout"
+                android:cursorVisible="true"
+                android:hint="Zip Code"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_layout">
+
+                <EditText
+                    android:id="@+id/bc_et_business_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="true"
+                    android:hint="Business Description"
+                    android:maxLength="200"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <com.kelybro.android.customviews.CustomTextView
+                android:id="@+id/bc_tv_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/rounded_layout_sky"
+                android:gravity="center"
+                android:text="Submit"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

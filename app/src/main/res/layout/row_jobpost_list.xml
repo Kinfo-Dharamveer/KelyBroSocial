@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lyn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/ic_avatar" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <com.kelybro.android.customviews.CustomTextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+            <com.kelybro.android.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_post_date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                android:text="25/03/2018"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:id="@+id/iv_post_delete"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_layout_white"
+        android:elevation="@dimen/_3sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:id="@+id/jp_business_name"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:textSize="@dimen/_15sdp"
+                android:text="MURANI INFOTECH PVT. LTD" />
+        </LinearLayout>
+        <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+            android:id="@+id/comment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textSize="@dimen/_10sdp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10sdp"
+                android:text="Category" />
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:textSize="@dimen/_10sdp"
+                android:id="@+id/jp_job_category"
+                android:text="HR" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10sdp"
+                android:text="Designation" />
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:textSize="@dimen/_10sdp"
+                android:id="@+id/jp_business_category"
+                android:text="IT Company" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10sdp"
+                android:text="Experience" />
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:id="@+id/job_experience"
+                android:text="7 Years" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10sdp"
+                android:text="Salary" />
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/job_salary"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:text="12k to 15k" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10sdp"
+                android:text="Location" />
+
+            <com.kelybro.android.customviews.MontserratAlternatesExtraBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="@dimen/_10sdp"
+                android:id="@+id/job_location"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:text="Rajkot" />
+
+        </LinearLayout>
+
+        <com.kelybro.android.customviews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:text="Apply"
+            android:id="@+id/jp_tv_apply"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/rounded_layout_sky"
+            android:layout_margin="@dimen/_5sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyn_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_like_unlike"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            android:tint="@color/black" />
+
+        <ImageView
+            android:id="@+id/hm_iv_comment"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_comment_black_24dp" />
+
+        <ImageView
+            android:id="@+id/jb_share_link"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_share_black_24dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
